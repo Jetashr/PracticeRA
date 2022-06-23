@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="jobsapiRestAssured.JobsApiGet"/>
+      <class name="lMSRestAssured.GetData"/>
+      <class name="jobsapiRestAssured.JobsPost"/>
+      <class name="jobsapiRestAssured.JobsPut"/>
+      <class name="lMSRestAssured.LmsGetAll"/>
+      <class name="lMSRestAssured.VerifyJsonSchema"/>
+      <class name="lMSRestAssured.Postdatadriven"/>
+      <class name="lMSRestAssured.PutData"/>
+      <class name="jobsapiRestAssured.JobsDelete"/>
+      <class name="lMSRestAssured.PostData"/>
+      <class name="lMSRestAssured.LmsDeletaData"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
